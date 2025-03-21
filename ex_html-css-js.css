@@ -26,4 +26,8 @@ input{
    border-color:#eaeaea;
    border-radius: 1px;
 }
-
+.envio{
+   background-color: #0077b6;
+   text-align: center;
+   color: white;
+}
