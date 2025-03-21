@@ -26,3 +26,14 @@ function modoOscuro(){
     }
 }
 
+document.getElementById("envio").onclick = function(event){
+    const nombre = document.getElementById("nombre").value.trim();
+    const direccion = document.getElementById("direccion").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const telefono = document.getElementById("telefono").value.trim();
+
+    if(nombre === "" || !email.contains("@") || direccion.length < 18 || telefono.lengt < 9){
+        alert("Hay campos obligatorios sin rellenar");
+    }
+}
+
