@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>Freiduria Online</title>
    ..........
     <link rel="stylesheet" href="ex_html-css-js.css">
 </head>
@@ -9,6 +10,41 @@
    ..........
 
     <script src="ex_html-css-js.js"></script>
-
+    <h1>¡¡Pide aqui tu rico pescaito!!</h1>
+    <img src="pescado_frito.jpg" width="500" height="300" alt="Bandeja pescado frito">
+    <form id="formulario">
+        <p>Nombre: </p><input type="text" id="nombre" placeholder="Escribe aqui tu nombre" required>
+        <br><p>Apellidos: </p><input type="text" id="apellidos" placeholder="Escribe aqui tus apellidos" required>
+        <br><p>Email: </p><input type="email" id="email" placeholder="Escribe aqui tu correo" required>
+        <br><p>Direccion: </p><input type="text" id="direccion" placeholder="Escribe aqui tu direccion" minlength="18" required>
+        <br><p>Telefono: </p><input type="tel" id="telefono" placeholder="Escribe aqui tu telefono" minlength="9" required>
+        <br><p>Hora aproximada entrega: </p><input type="time" id="hora_entrega" placeholder="Introduce la hora de entrega">
+        <br><p>Tipo de pescado: </p><select id="tipo_pescado" required>
+            <option id="adobo">Adobo</option>
+            <option id="adobo">Calamares</option>
+            <option id="adobo">Boquerones</option>
+        </select>
+        <br><p>Nº de raciones: </p><select id="n_raciones" required>
+            <option id="opcion1">1</option>
+            <option id="opcion2">2</option>
+            <option id="opcion3">3</option>
+            <option id="opcion4">4</option>
+            <option id="opcion5">5</option>
+        </select>
+        <br><p>Acompañamiento: </p><select id="acompañamiento" multiple>
+            <option id="opcion1">Patatas fritas</option>
+            <option id="opcion2">Ensaladilla</option>
+            <option id="opcion3">Bote de manzanilla</option>
+        </select>
+        <br><p>Metodo de pago: </p><select id="pago" required>
+            <option>Efectivo</option>
+            <option>Tarjeta</option>
+            <option>PayPal</option>
+        </select>
+        <br><p>Instrucciones adicionales: </p><textarea id="instrucciones" maxlength="150" placeholder="Escribe aqui las instruciones completas"></textarea>
+        <br><br><input type="submit" value="Enviar pedido">
+        <br><button id="modoOscuro">Modo Oscuro</button>
+    </form>
+    <br><footer>Creado por: Daniel Hidalgo Rodriguez</footer>
 </body>
 </html>
