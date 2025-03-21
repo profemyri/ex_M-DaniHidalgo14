@@ -16,11 +16,12 @@ function confirmar(event){
         event.preventDefault();
     }
 }
-
-document.getElementById("modoOscuro").onclick = function(){
+function modoOscuro(){
     if(document.body.style.backgroundColor === "black"){
+        document.getElementById("modoOscuro");
         document.body.style.backgroundColor = "#faf3e0";
     }else{
+        document.getElementById("modoOscuro");
         document.body.style.backgroundColor = "black";
     }
 }
