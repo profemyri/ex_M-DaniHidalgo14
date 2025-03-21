@@ -18,6 +18,10 @@ function confirmar(event){
 }
 
 document.getElementById("modoOscuro").onclick = function(){
-    document.body.classList.toggle("oscuro");
+    if(document.body.style.backgroundColor === "black"){
+        document.body.style.backgroundColor = "#faf3e0";
+    }else{
+        document.body.style.backgroundColor = "black";
+    }
 }
 
