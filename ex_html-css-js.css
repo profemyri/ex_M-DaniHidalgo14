@@ -1,9 +1,6 @@
 body {
    align-items: center;
    background-color: #faf3e0;
-   margin: 15px;
-   padding: 10px;
-   border-radius: 10px;
 }
 
 h1 {
@@ -13,7 +10,9 @@ h1 {
 }
 
 form {
-   
+   margin: 15px;
+   padding: 10px;
+   border-radius: 10px;
    background-color: #ffff;
 }
 p{
