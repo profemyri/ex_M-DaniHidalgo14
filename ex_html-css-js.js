@@ -8,6 +8,8 @@ envio.addEventListener("mouseover", function(){
     }
 })
 
-document.getElementById("instrucciones").oninput = function(){
-    document.getElementById("contador").textContent = this.value.length;
+function contador(){
+    document.getElementById("")
 }
+
+

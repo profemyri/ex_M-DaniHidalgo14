@@ -1,5 +1,6 @@
 body {
    align-items: center;
+   align-content: center;
    background-color: #faf3e0;
 }
 
@@ -33,5 +34,5 @@ input{
    color: white;
 }
 img{
-   align-items: center;
+   align-content: center;
 }
