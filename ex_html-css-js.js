@@ -7,3 +7,7 @@ envio.addEventListener("mouseover", function(){
         envio.style.backgroundColor = "blue";
     }
 })
+
+document.getElementById("instrucciones").oninput = function(){
+    document.getElementById("contador").textContent = this.value.length;
+}
