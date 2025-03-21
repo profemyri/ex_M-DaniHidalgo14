@@ -12,3 +12,9 @@ document.getElementById("instrucciones").oninput = function(){
     document.getElementById("contador").textContent = this.value.length;
 }
 
+function confirmar(event){
+    if(!confirm("¿Desea enviar el pedido?")){
+        event.preventDefault();
+    }
+}
+
