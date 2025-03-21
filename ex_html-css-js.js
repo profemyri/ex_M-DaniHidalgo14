@@ -17,3 +17,7 @@ function confirmar(event){
     }
 }
 
+document.getElementById("modoOscuro").onclick = function(){
+    document.body.classList.toggle("oscuro");
+}
+
