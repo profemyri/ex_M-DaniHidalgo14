@@ -9,7 +9,7 @@ h1 {
    text-align: center;
 }
 
-form {
+form {align-items: center;
    margin: 15px;
    padding: 10px;
    border-radius: 10px;
